@@ -1,7 +1,7 @@
 # wp-ai-auto-summary
 
 Plugin WordPress **AI Auto Summary (On‑Demand)** + backend (**PHP untuk shared hosting**, dan contoh **FastAPI**).  
-Repo ini memuat semua kode yang sudah kita uji di situs kamu, dikemas agar mudah dikelola di GitHub.
+Repo ini memuat semua kode yang sudah diuji di situs wordpress.
 
 ## Isi repo
 - `plugin/ai-auto-summary-ondemand-patched/` — Plugin WordPress (on‑demand, versi patched).
@@ -19,8 +19,6 @@ git branch -M main
 git remote add origin https://github.com/YOUR_USERNAME/wp-ai-auto-summary.git
 git push -u origin main
 ```
-
-> **Jangan commit kunci**: simpan `GEMINI_API_KEY` hanya di server (`config.php` di backend PHP atau `.env` untuk FastAPI).
 
 ## Konfigurasi ringkas
 - **Endpoint plugin**: `https://DOMAIN/ai-summarize/index.php`
