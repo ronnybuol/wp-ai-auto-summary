@@ -1,0 +1,9 @@
+<?php
+// Rename to config.php and fill your keys.
+if (!defined('GEMINI_API_KEY')) {
+  define('GEMINI_API_KEY', 'PASTE_YOUR_GEMINI_API_KEY_HERE');
+}
+// Optional shared secret. Must match WordPress plugin Settings > Backend API Key
+if (!defined('OPTIONAL_BACKEND_API_KEY')) {
+  define('OPTIONAL_BACKEND_API_KEY', 'OPTIONAL_SHARED_SECRET');
+}

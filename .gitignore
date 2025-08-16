@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+*.log
+
+# Node
+node_modules/
+
+# Mac/Win
+.DS_Store
+Thumbs.db
+
+# Zip/artifacts
+*.zip
+
+# IDE
+.vscode/
+.idea/
+
+# WordPress packaging (optional)
+*.bak
